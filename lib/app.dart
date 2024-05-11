@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'config/theme/app_light_theme.dart';
+import 'feature/bottom_nav_bar/presentation/pages/bottom_nav_bar_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Cleaning Mobile',
           theme: appLightTheme(),
+          home: const BottomNavBarScreen(),
         );
       },
     );
