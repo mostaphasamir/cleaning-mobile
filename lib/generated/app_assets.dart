@@ -2,6 +2,7 @@
 class AppAssets {
   AppAssets._();
 
+  static const String imagesOffer = 'assets/dummy/images/offer.png';
   static const String rubikRubikBlack = 'assets/fonts/Rubik/Rubik-Black.ttf';
   static const String rubikRubikBlackItalic = 'assets/fonts/Rubik/Rubik-BlackItalic.ttf';
   static const String rubikRubikBold = 'assets/fonts/Rubik/Rubik-Bold.ttf';

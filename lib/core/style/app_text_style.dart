@@ -33,4 +33,9 @@ class AppTextStyle {
       .merge(fontWeight400)
       .merge(fontSize14)
       .copyWith(color: AppColors.black);
+
+  static TextStyle get rubik20darkGrey500 => fontRubik
+      .merge(fontWeight600)
+      .merge(fontSize20)
+      .copyWith(color: AppColors.darkBlue);
 }
