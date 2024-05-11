@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 
 import '../../../../core/helper/custom_image_view.dart';
 import '../../../../core/utils/app_colors.dart';
-import '../../../../generated/app_assets.dart';
 
 class BottomNavBarItem extends StatelessWidget {
   final String svgPath ;

@@ -37,6 +37,14 @@ class _BottomNavBarState extends State<BottomNavBar> {
         borderRadius: BorderRadius.circular(
           AppRadius.r20,
         ),
+        boxShadow: [
+          BoxShadow(
+            color: AppColors.grey.withOpacity(0.2,),
+            offset: const Offset(0,-10),
+            spreadRadius: 20,
+            blurRadius: 30,
+          )
+        ]
       ),
       padding: EdgeInsets.symmetric(
         vertical: AppHeight.h13,

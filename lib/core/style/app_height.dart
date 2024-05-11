@@ -44,5 +44,6 @@ class AppHeight {
   static double h240 = 240.h;
   static double h250 = 250.h;
   static double h300 = 300.h;
+  static double h438 = 438.h;
   static double separatorHeight = h7;
 }
