@@ -8,5 +8,7 @@ class AppStrings{
   static String seeAll = "See all" ;
   static String categories = "Categories" ;
   static String popularHouseMaid = "Popular House Maid" ;
+  static String featureNurses = "Feature Nurses" ;
+  static String month = "Month" ;
 
 }

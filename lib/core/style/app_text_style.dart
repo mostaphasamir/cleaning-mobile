@@ -54,4 +54,26 @@ class AppTextStyle {
       .merge(fontWeight400)
       .merge(fontSize12)
       .copyWith(color: AppColors.blueGray);
+
+  static TextStyle get rubik12darkGrey400 => fontRubik
+      .merge(fontWeight400)
+      .merge(fontSize12)
+      .copyWith(color: AppColors.darkGrey);
+
+
+
+  static TextStyle get rubik9green400 => fontRubik
+      .merge(fontWeight400)
+      .merge(fontSize8)
+      .copyWith(color: AppColors.green);
+
+  static TextStyle get rubik9blueGray300 => fontRubik
+      .merge(fontWeight300)
+      .merge(fontSize8)
+      .copyWith(color: AppColors.blueGray);
+
+  static TextStyle get rubik8black400 => fontRubik
+      .merge(fontWeight400)
+      .merge(fontSize8)
+      .copyWith(color: AppColors.black);
 }

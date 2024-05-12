@@ -4,6 +4,7 @@ class AppHeight {
   static double h2 = 2.h;
   static double h3 = 3.h;
   static double h4 = 4.h;
+  static double h5 = 5.h;
   static double h6 = 6.h;
   static double h7 = 7.h;
   static double h8 = 8.h;
@@ -34,6 +35,7 @@ class AppHeight {
   static double h105 = 105.h;
   static double h115 = 155.h;
   static double h120 = 120.h;
+  static double h130 = 130.h;
   static double h140 = 140.h;
   static double h145 = 145.h;
   static double h160 = 160.h;

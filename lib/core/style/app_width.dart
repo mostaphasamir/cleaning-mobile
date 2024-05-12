@@ -12,6 +12,7 @@ class AppWidth {
   static double w19 = 19.w;
   static double w20 = 20.w;
   static double w21 = 21.w;
+  static double w22 = 22.w;
   static double w25 = 25.w;
   static double w30 = 30.w;
   static double w32 = 32.w;
