@@ -22,7 +22,7 @@ class BottomNavBarItem extends StatelessWidget {
         ),
         child: CustomImageView(
           svgPath: svgPath,
-          color: isSelected ? AppColors.white: AppColors.grey,
+          color: isSelected ? AppColors.white: AppColors.lightGrey,
         ),
       ),
     );

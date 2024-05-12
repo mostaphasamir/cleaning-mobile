@@ -2,6 +2,7 @@
 class AppAssets {
   AppAssets._();
 
+  static const String imagesCategoryServices = 'assets/dummy/images/category_services.png';
   static const String imagesOffer = 'assets/dummy/images/offer.png';
   static const String rubikRubikBlack = 'assets/fonts/Rubik/Rubik-Black.ttf';
   static const String rubikRubikBlackItalic = 'assets/fonts/Rubik/Rubik-BlackItalic.ttf';
@@ -22,6 +23,7 @@ class AppAssets {
   static const String svgChat = 'assets/icons/svg/chat.svg';
   static const String svgFavorite = 'assets/icons/svg/favorite.svg';
   static const String svgHome = 'assets/icons/svg/home.svg';
+  static const String svgMore = 'assets/icons/svg/more.svg';
   static const String svgOrder = 'assets/icons/svg/order.svg';
 
 }

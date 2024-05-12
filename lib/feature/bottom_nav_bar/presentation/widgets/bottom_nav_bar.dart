@@ -34,12 +34,13 @@ class _BottomNavBarState extends State<BottomNavBar> {
     return Container(
       decoration: BoxDecoration(
         color: AppColors.white,
-        borderRadius: BorderRadius.circular(
-          AppRadius.r20,
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(AppRadius.r20,),
+          topRight: Radius.circular(AppRadius.r20,),
         ),
         boxShadow: [
           BoxShadow(
-            color: AppColors.grey.withOpacity(0.2,),
+            color: AppColors.lightGrey.withOpacity(0.2,),
             offset: const Offset(0,-10),
             spreadRadius: 20,
             blurRadius: 30,

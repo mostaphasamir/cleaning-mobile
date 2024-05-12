@@ -63,7 +63,7 @@ class _HomeOfferCarouselState extends State<HomeOfferCarousel> {
             dotWidth: AppRadius.r6,
             dotHeight: AppRadius.r6,
             activeDotColor: AppColors.primary,
-            dotColor: AppColors.darkGrey,
+            dotColor: AppColors.grey,
           ),
 
         )
