@@ -36,6 +36,7 @@ flutter:
     - assets/icons/svg/
     - assets/images/svg/
     - assets/dummy/images/
+    - assets/icons/png/
 
   fonts:
     - family: Rubik

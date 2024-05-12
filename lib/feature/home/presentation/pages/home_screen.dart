@@ -8,6 +8,7 @@ import 'package:cleaning_mobile/core/utils/app_strings.dart';
 import 'package:cleaning_mobile/generated/app_assets.dart';
 import 'package:flutter/material.dart';
 
+import '../../../../shared/presentation/widgets/floating_action_bottom/default_floating_action_bottom.dart';
 import '../widgets/body_with_back_ground.dart';
 import '../widgets/category_widget.dart';
 import '../widgets/feature_nurses/feature_nurses_item.dart';
@@ -127,6 +128,10 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.startTop,
+      floatingActionButton: DefaultFloatingActionBottom(
+        imagePath: AppAssets.pngProfile,
       ),
     );
   }
