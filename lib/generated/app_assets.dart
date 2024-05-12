@@ -4,6 +4,7 @@ class AppAssets {
 
   static const String imagesCategoryServices = 'assets/dummy/images/category_services.png';
   static const String imagesDoctor = 'assets/dummy/images/doctor.png';
+  static const String imagesGreateLaundry = 'assets/dummy/images/greate_laundry.png';
   static const String imagesLaundry = 'assets/dummy/images/laundry.png';
   static const String imagesOffer = 'assets/dummy/images/offer.png';
   static const String rubikRubikBlack = 'assets/fonts/Rubik/Rubik-Black.ttf';

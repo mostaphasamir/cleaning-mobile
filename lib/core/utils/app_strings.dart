@@ -10,5 +10,7 @@ class AppStrings{
   static String popularHouseMaid = "Popular House Maid" ;
   static String featureNurses = "Feature Nurses" ;
   static String month = "Month" ;
+  static String top4LaundryInAlKhor = "Top 4 Laundry in Al Khor" ;
+  static String book = "Book" ;
 
 }
