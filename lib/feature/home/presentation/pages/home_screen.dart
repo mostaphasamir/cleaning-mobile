@@ -10,12 +10,13 @@ import 'package:flutter/material.dart';
 
 import '../../../../shared/presentation/widgets/floating_action_bottom/default_floating_action_bottom.dart';
 import '../widgets/body_with_back_ground.dart';
-import '../widgets/category_widget.dart';
+import '../widgets/category/category_widget.dart';
 import '../widgets/feature_nurses/feature_nurses_item.dart';
 import '../widgets/offer_curosel_widget.dart';
 import '../widgets/popular_house/popular_house_meaid_widget.dart';
 import '../widgets/see_all_widget.dart';
 import '../widgets/top_four_laundry/laundry_item.dart';
+import 'categories_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -47,7 +48,7 @@ class HomeScreen extends StatelessWidget {
               SeeAllWidget(
                 title: AppStrings.categories,
                 onTap: () {
-                  //TODO navigate to categories scree
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const CategoriesScreen(),));
                 },
               ),
               15.hs,

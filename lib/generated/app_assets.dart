@@ -7,6 +7,7 @@ class AppAssets {
   static const String imagesGreateLaundry = 'assets/dummy/images/greate_laundry.png';
   static const String imagesLaundry = 'assets/dummy/images/laundry.png';
   static const String imagesOffer = 'assets/dummy/images/offer.png';
+  static const String pngBack = 'assets/icons/png/back.png';
   static const String pngProfile = 'assets/icons/png/profile.png';
   static const String rubikRubikBlack = 'assets/fonts/Rubik/Rubik-Black.ttf';
   static const String rubikRubikBlackItalic = 'assets/fonts/Rubik/Rubik-BlackItalic.ttf';
@@ -24,6 +25,7 @@ class AppAssets {
   static const String rubikRubikSemiBoldItalic = 'assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf';
   static const String svgBubble2 = 'assets/images/svg/bubble2.svg';
   static const String svgBubbles = 'assets/images/svg/bubbles.svg';
+  static const String svgCategoriesBubbles = 'assets/images/svg/categories_bubbles.svg';
   static const String svgChat = 'assets/icons/svg/chat.svg';
   static const String svgEmptyLike = 'assets/icons/svg/empty_like.svg';
   static const String svgFavorite = 'assets/icons/svg/favorite.svg';

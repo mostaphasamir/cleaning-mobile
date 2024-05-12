@@ -7,9 +7,9 @@ import 'package:cleaning_mobile/core/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class DefaultFloatingActionBottom extends StatelessWidget {
-  final String imagePath ;
+  final String ? imagePath ;
   final void Function()? onTap ;
-  const DefaultFloatingActionBottom({super.key, required this.imagePath, this.onTap});
+  const DefaultFloatingActionBottom({super.key, this.imagePath, this.onTap,});
 
   @override
   Widget build(BuildContext context) {

@@ -30,6 +30,17 @@ class AppTextStyle {
   static const TextStyle fontRubik = TextStyle(fontFamily: "Rubik");
 
 
+  static TextStyle get rubik24white600 => fontRubik
+      .merge(fontWeight600)
+      .merge(fontSize24)
+      .copyWith(color: AppColors.white);
+
+  static TextStyle get rubik24black700 => fontRubik
+      .merge(fontWeight700)
+      .merge(fontSize24)
+      .copyWith(color: AppColors.black);
+
+
   static TextStyle get rubik20darkBlue500 => fontRubik
       .merge(fontWeight600)
       .merge(fontSize20)
@@ -40,10 +51,7 @@ class AppTextStyle {
       .merge(fontSize18)
       .copyWith(color: AppColors.darkGrey);
 
-  static TextStyle get rubik24white600 => fontRubik
-      .merge(fontWeight600)
-      .merge(fontSize24)
-      .copyWith(color: AppColors.white);
+
 
   static TextStyle get rubik16darkGrey500 => fontRubik
       .merge(fontWeight600)
