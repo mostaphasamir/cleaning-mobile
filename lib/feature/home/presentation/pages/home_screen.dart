@@ -12,6 +12,8 @@ import 'package:nb_utils/nb_utils.dart';
 import '../widgets/body_with_back_ground.dart';
 import '../widgets/category_widget.dart';
 import '../widgets/offer_curosel_widget.dart';
+import '../widgets/popular_house/popular_house_Item.dart';
+import '../widgets/popular_house/popular_house_meaid_widget.dart';
 import '../widgets/see_all_widget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -67,7 +69,14 @@ class HomeScreen extends StatelessWidget {
                 //TODO navigate to popular house madi
               },
             ),
-
+            const PopularHouseMaidWidget(
+              images: [
+                AppAssets.imagesLaundry,
+                AppAssets.imagesLaundry,
+                AppAssets.imagesLaundry,
+                AppAssets.imagesLaundry,
+              ],
+            ),
             (context.screenHeight * 0.08).hs,
           ],
         ),
